@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: 'public-sans', sans-serif;
+    font-family: 'Public sans', sans-serif;
 }
 
 img { 
@@ -11,7 +11,7 @@ img {
 a {
     text-decoration: none;
 }
-
+ 
 ul {
     list-style: none;
 }
@@ -51,10 +51,11 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 5px;
+    padding: 25px 0px;
     max-width: 1170px;
     margin: 0 auto;
     flex-wrap: wrap;
+    scroll-behavior: smooth;
 }
 
 @media(max-width: 624px) {
@@ -66,7 +67,7 @@ html {
         margin-bottom: 30px;
     }
 
-    .cabecalho .menu .item a {
+    .navegacao .menu .item a {
         font-size: calc(0.6em + 1vw);
     }
 }
@@ -117,7 +118,8 @@ html {
     z-index: -1;
     filter: brightness(70%); 
 
-    opacity: 1;
+    opacity: 0;
+    font-size: 20px;
     transition: 0.3s ease-in-out;
 }
 

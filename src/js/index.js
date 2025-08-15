@@ -1,42 +1,36 @@
-const imagensPainel = document.querySelectorAll('.imagem-painel'); 
+const imagens = document.querySelectorAll('.imagem-painel');
+const btnVoltar = document.getElementById('btn-voltar'); 
 const btnAvancar = document.getElementById('btn-avancar');
-const btnVoltar = document.getElementById('btn-voltar');
 let  imagemAtual = 0;
 
 function esconderImagens() {
-  imagensPainel.forEach(imagem => {
-    imagemAtual.classList.remove('mostrar');
+  imagens.forEach(imagem => {
+    imagem.classList.remove('mostrar');
   });
 }
 
 function mostrarImagem() {
-  imagemPainel[imagemAtual].classList.add('mostrar');
+  imagens[imagemAtual].classList.add('mostrar');
 }
 
-
+ 
 btnAvancar.addEventListener('click', function() {
-  const totalDeImagens = imagensPainel.length -1;
-  if(imagemAtual === totalDeImagens) {
-    return;
+  if(imagemAtual !== imagens.length -1) {
+    imagemAtual++;
   }
-
-   imagemAtual++;
 
    esconderImagens();
    mostrarImagem();
-});
-
+})
 
 btnVoltar.addEventListener('click', function() {
-  if (imagemAtual === 0) {
-    return;
+  if (imagemAtual !== 0) {
+    imagemAtual--;
   }
-
-  imagemAtual--;
 
   esconderImagens();
   mostrarImagem();
-});
+})
 
 
 
