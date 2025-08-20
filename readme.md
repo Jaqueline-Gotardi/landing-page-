@@ -37,7 +37,7 @@ Esse projeto me ajudou a:
 
 ## 🤝 Créditos  
 
-Projeto guiado pela equipe **Dev em Dobro** no curso **DevQuest**.  
-Desenvolvido por **Jaqueline Gotardi**. 💚  
+Projeto do curso **DevQuest- Dev em Dobro**. 
+Feito  por mim para praticar o código e aplicar o aprendizado.💜
 
-✨ Um passo de cada vez, sempre aprendendo. . .
+✨ Um passo de cada vez, sempre aprendendo.
