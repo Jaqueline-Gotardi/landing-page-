@@ -3,6 +3,8 @@
 Projeto desenvolvido durante o curso **DevQuest** da [Dev em Dobro]. 🚀 
 A proposta foi criar uma **landing page de uma agência digital**, praticando HTML, CSS e JavaScript de forma simples e objetiva.  
 
+![Preview do site](src/imagens/tela-responsive.png)
+
 ---
 
 ## ✨ O que tem nesse projeto  
